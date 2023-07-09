@@ -131,6 +131,7 @@ class AccountResource extends Resource
             RelationManagers\QualificationsRelationManager::class,
             RelationManagers\RolesRelationManager::class,
             RelationManagers\BansRelationManager::class,
+            RelationManagers\FeedbackRelationManager::class,
         ];
     }
 
